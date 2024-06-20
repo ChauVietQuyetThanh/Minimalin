@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Minimalin</title>
+    <link rel="icon" type="images/png" sizes="32pxx32px"
+        href="//minimalin-demo.myshopify.com/cdn/shop/files/favicon-simple-2_32x32.png?v=1692807425">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--begin header-->
+    <div class="headers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="logo">
+                        <a href="index.html"> <img
+                                src="https://minimalin-demo.myshopify.com/cdn/shop/files/logo-simple_150x.png?v=1692805162 "
+                                width="125px"></a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link" href="index.html">Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="">Shop</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="categories.html">Categories</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="product.html">Product</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="new.html">Blog</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="contact.html">Trang</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-2">
+                    <ul class="menu-right">
+                        <li class="mn-item">
+                            <a href="" class="mn-link">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="mn-item">
+                            <a href="login.html" class="mn-link">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="mn-item">
+                            <a href="" class="mn-link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end header-->
+    <!--begin your-shopping-->
+    <section class="your-shopping">
+        <div class="container">
+            <div class="row">
+                <div class="nickname">
+                    <h1 class="nickname-test">Your Shopping Cart</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end your-shopping-->
+    <!--begin shirt-->
+    <section class="shirt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="shirt-img">
+                        <div class="shirt-wrap">
+                            <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/shirt_1_compact.png?v=1692372496"
+                                alt="" class="p-img" width="150px" height="200px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <p class="Men-Formal">W . Men Formal T-shirt</p>
+                    <P class="white">White</P>
+                </div>
+                <div class="col-md-2">
+                    <P class="coin-master">491.000 <sup>₫</sup></P>
+                </div>
+                <div class="col-md-2">
+                    <button class="soluong">-</button>
+                    <button class="soluong">1</button>
+                    <button class="soluong">+</button>
+                </div>
+                <div class="col-md-2">
+                    <P class="coin-master">491.000 <sup>₫</sup></P>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--end shirt-->
+    <!--begin continue-->
+    <section class="continue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="continue-button">
+                        <button class="button-test">
+                            Continue Shopping
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="continue-button">
+                        <button class="button-test">
+                            Clear Cart
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--end continue-->
+    <!--begin special-->
+    <section class="specical">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="specical-border">
+                        <h4>Special instructions for seller</h4>
+                        <textarea name="note" class id="chat"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reset-name">
+                        <h4>Cart Totals</h4>
+                    </div>
+                    <table class="table">
+                        <tbody>
+                            <tr class="cart-subtotal">
+                                <th>Subtotal</th>
+                                <td>
+                                    <span class="amount">
+                                        <span id="price-money">491.000₫</span>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr class="order-total">
+                                <th>Total</th>
+                                <td>
+                                    <strong>
+                                        <span class="amount">
+                                            <span id="price-money">491.000₫</span>
+                                        </span>
+                                    </strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="proceed-checkout">
+                        <button class="proceed">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Guaranteed-views">
+                <h2 class="Guaranteed-size">Featured Product</h2>
+                <p class="Guaranteed-size">There are many variations of passages.</p>
+            </div>
+        </div>
+
+    </section>
+    <!--end specical-->
+    <!-- begin Minimalin-gift-->
+    <section class="minimalin-gift">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="p-wrap">
+                        <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/CosmeticProduct800x800_2a7357cf-b45a-4fec-b87d-afe505860453_600x.png?v=1697893153"
+                            alt="" class="p-img">
+                        <h6 class="p-name">Minimalin gift card</h6>
+                        <span class="price">258.260₫</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-wrap">
+                        <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/hand-ring_1_600x.png?v=1692208184"
+                            alt="" class="p-img">
+                        <h6 class="p-name">J. Women Hand Ring</h6>
+                        <span class="price">491.000₫</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-wrap">
+                        <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/shirt_2_600x.png?v=1692372496"
+                            alt="" class="p-img">
+                        <h6 class="p-name">W. Men Formal T-shirt</h6>
+                        <span class="price">491.000₫</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-wrap">
+                        <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/earring_2_600x.png?v=1693290155"
+                            alt="" class="p-img">
+                        <h6 class="p-name">Va. Long Earring</h6>
+                        <span class="price">491.000₫</span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-view">
+                <button class="btn-size">View All</button>
+            </div>
+        </div>
+    </section>
+    <!-- end Minimalin-gift-->
+    <!--begin about-->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-us">
+                        <h4> About Us.</h4>
+                        <p>Minimal E-Commerce is a dynamic and innovative online retail platform that offers a wide
+                            range of products to customers worldwide.</p>
+                    </div>
+                    <div class="icon-user">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <h5>Guaranteed safe checkout</h5>
+                    </div>
+                    <div class="card-img">
+                        <img class="img-card"
+                            src="https://minimalin-demo.myshopify.com/cdn/shopifycloud/shopify/assets/payment_icons/amazon-92e856f82cae5a564cd0f70457f11af4d58fa037cf6e5ab7adf76f6fd3b9cafe.svg"
+                            alt="" width="45px" height="29px">
+                        <img class="img-card"
+                            src="https://minimalin-demo.myshopify.com/cdn/shopifycloud/shopify/assets/payment_icons/apple_pay-f6db0077dc7c325b436ecbdcf254239100b35b70b1663bc7523d7c424901fa09.svg"
+                            alt="" width="45px" height="29px">
+                        <img class="img-card"
+                            src="https://minimalin-demo.myshopify.com/cdn/shopifycloud/shopify/assets/payment_icons/bitcoin-e41278677541fc32b8d2e7fa41e61aaab2935151a6048a1d8d341162f5b93a0a.svg"
+                            alt="" width="45px" height="29px">
+                        <img class="img-card"
+                            src="https://minimalin-demo.myshopify.com/cdn/shopifycloud/shopify/assets/payment_icons/google_pay-c66a29c63facf2053bf69352982c958e9675cabea4f2f7ccec08d169d1856b31.svg"
+                            alt="" width="45px" height="29px">
+                        <img class="img-card"
+                            src="https://minimalin-demo.myshopify.com/cdn/shopifycloud/shopify/assets/payment_icons/paypal-49e4c1e03244b6d2de0d270ca0d22dd15da6e92cc7266e93eb43762df5aa355d.svg"
+                            alt="" width="45px" height="29px">
+                        <img class="img-card"
+                            src="https://minimalin-demo.myshopify.com/cdn/shopifycloud/shopify/assets/payment_icons/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00.svg"
+                            alt="" width="45px" height="29px">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="quick">
+                        <h5>Quick Link</h5>
+                        <p>My Account </p>
+                        <p>My Cart</p>
+                        <p>Wishlist</p>
+                        <p>Gift Card</p>
+                        <p>Need Help?</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="Information">
+                        <h5>Information</h5>
+                        <p>About us</p>
+                        <p>Contact</p>
+                        <p>Blogs</p>
+                        <p>Size Chart</p>
+                        <p>FAQ</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="Polices">
+                        <h5>Polices</h5>
+                        <P>Privacy Policy</P>
+                        <P>Refund Policy</P>
+                        <P>Terms of Service</P>
+                        <P>Shipping Policy</P>
+                        <P>Contact Information</P>
+                    </div>
+                </div>
+                <hr>
+                <div class="cre">
+                    <p>"© 2024 "<strong>Châu Viết Quyết Thành</strong>". All rights reserved."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end about-->
+</body>
+
+</html>
