@@ -7,6 +7,8 @@
 ![example](./images/mini1.png)
 ![example](./images/mini2.png)
 ![example](./images/mini3.png)
+![example](./images/mini11.png)
+![example](./images/mini12.png)
 ![example](./images/mini5.png)
 ![example](./images/mini6.png)
 ![example](./images/mini7.png)
